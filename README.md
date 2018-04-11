@@ -2,14 +2,16 @@
 
 1-Data in the CSV file is grouped by (in the SQL sense):
 First by the ip
-Second by the time (hours,min,sec)
+Second by the time (hours, min, sec)
 My code uses this format in the CSV file. Of course we can always
 use SQL or extra coding to rewrite the data in the CSV file if required.
 This assumption simplifies the problem enormously and eliminates difficult
 situations that can appear in the data for instance:
 
 121.123.ijj,00:00:00
+
 132.343.abc,00:00:02
+
 121.123.ijj,00:00:01
 
 
@@ -55,8 +57,9 @@ For a detailed documentation please refer to the comments inside the
 main file. This code has been compiled in Visual Studio Code in Ubuntu 
 with preinstalled extensions such as:
  
-*C/C++ for Visual Studio Code
-*Code Runner
+-C/C++ for Visual Studio Code
+
+-Code Runner
 
 The command that the program automatically uses to compile is:
 cd "/home/q/insight_project/src/" && g++ insight2.cpp -o insight2 && "/home/q/insight_project/src/"insight2
