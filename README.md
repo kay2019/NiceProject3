@@ -29,7 +29,7 @@ To make the code efficient and scalable, we don't save all columns and rows.
 Instead, streaming data is preferred.  We will use 3 nested (while) loops. 
 The first loop goes through all the lines from start to bottom. The second loop
 goes through a specific session for an ip. The third loop finds the number of
-articles request during each node for the ongoing session.
+requested articles during each node for the ongoing session.
 
 As an example: Lets read the first line of the CSV file. The ip is 123.232.jja. 
 The second loop starts to read the rest of the file to construct the ip's
