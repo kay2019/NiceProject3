@@ -1,4 +1,4 @@
-Assumptions:
+**Assumptions:**
 
 1-Data in the CSV file is grouped by (in the SQL sense):
 First by the ip
@@ -13,7 +13,7 @@ situations that can appear in the data for instance:
 121.123.ijj,00:00:01
 
 
-Our Approach:
+**Our Approach:**
 
 The code is written in C/C++ for speed. Best way is to construct the corresponding
 tree and create nodes. We use a simpler method called linked list since it's scalable.
@@ -49,14 +49,14 @@ loop since article number is not increasing and that branch terminates
 
 
 
-Compiling and running:
+**Compiling and running:**
 
 For a detailed documentation please refer to the comments inside the
 main file. This code has been compiled in Visual Studio Code in Ubuntu 
 with preinstalled extensions such as:
  
-C/C++ for Visual Studio Code
-Code Runner
+*C/C++ for Visual Studio Code
+*Code Runner
 
 The command that the program automatically uses to compile is:
 cd "/home/q/insight_project/src/" && g++ insight2.cpp -o insight2 && "/home/q/insight_project/src/"insight2
