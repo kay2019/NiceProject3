@@ -47,7 +47,7 @@ fixed, while the value for the current node depends on the future lines
 (? in the graph below) this is shown in the middle of the branches. It can be 
 that the newline has a different ip, in this case we come out of the inner most 
 loop since article number is not increasing and that branch terminates 
-(x in the graph). The recursive process is shown below for a specific node.
+(x in the graph). The recursive process is shown below for a specific ip.
 
 
 ![What is this](graph_tree.png)							
