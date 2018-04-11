@@ -1,8 +1,11 @@
 **Assumptions:**
 
 Data in the CSV file is grouped by (in the SQL sense):
+
 First by the ip
+
 Second by the time (hours, min, sec)
+
 My code uses this format in the CSV file. Of course we can always
 use SQL or extra coding to rewrite the data in the CSV file if required.
 This assumption simplifies the problem enormously and eliminates difficult
