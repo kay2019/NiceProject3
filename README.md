@@ -1,6 +1,6 @@
 **Assumptions:**
 
-1-Data in the CSV file is grouped by (in the SQL sense):
+Data in the CSV file is grouped by (in the SQL sense):
 First by the ip
 Second by the time (hours, min, sec)
 My code uses this format in the CSV file. Of course we can always
